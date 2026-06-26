@@ -1,119 +1,141 @@
 ✈️ Flight Fare Prediction using Machine Learning
+______________________________________
 📌 Project Overview
-
-Flight ticket prices fluctuate based on several factors such as airline, travel date, departure time, arrival time, duration, source, destination, and number of stops. This project builds a Machine Learning regression model to predict flight ticket prices accurately using historical flight data.
-
-The project includes complete data preprocessing, feature engineering, model training, evaluation, and prediction.
-
-🚀 Features
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Feature Engineering
-Categorical Feature Encoding
-Model Training
-Model Evaluation
-Flight Fare Prediction
-📂 Dataset
-
-The dataset contains information about flights including:
-
-Airline
-Date of Journey
-Source
-Destination
-Route
-Departure Time
-Arrival Time
-Duration
-Total Stops
-Additional Information
-Price (Target Variable)
-🛠️ Technologies Used
-Python
-Jupyter Notebook
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-XGBoost
-📊 Machine Learning Workflow
-Import Dataset
-Data Cleaning
-Handle Missing Values
-Feature Engineering
-Encode Categorical Variables
-Split Training and Testing Data
-Train Multiple Regression Models
-Compare Model Performance
-Predict Flight Prices
+Flight ticket prices change dynamically based on multiple factors such as airline, departure time, travel date, source, destination, duration, and number of stops. This project develops a Machine Learning Regression Model capable of predicting flight fares using historical flight data.
+The notebook covers the complete machine learning lifecycle including:
+•	📊 Exploratory Data Analysis (EDA)
+•	🧹 Data Cleaning & Preprocessing
+•	⚙️ Feature Engineering
+•	🤖 Model Training
+•	📈 Model Evaluation
+•	💰 Flight Fare Prediction
+________________________________________
+🚀 Key Features
+✅ Data Cleaning
+✅ Missing Value Handling
+✅ Exploratory Data Analysis (EDA)
+✅ Feature Engineering
+✅ Categorical Feature Encoding
+✅ Model Building
+✅ Model Evaluation
+✅ Flight Fare Prediction
+________________________________________
+🛠️ Tech Stack
+Category	Technologies
+Language	Python
+IDE	Jupyter Notebook
+Libraries	NumPy, Pandas
+Visualization	Matplotlib, Seaborn
+Machine Learning	Scikit-learn, XGBoost
+________________________________________
 🤖 Machine Learning Models
-Linear Regression
-Random Forest Regressor
-XGBoost Regressor
-📈 Evaluation Metrics
-
-The models are evaluated using:
-
-R² Score
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-📁 Project Structure
+The following regression models were implemented and compared:
+•	Linear Regression
+•	Random Forest Regressor
+•	XGBoost Regressor
+________________________________________
+📊 Evaluation Metrics
+The models were evaluated using:
+•	R² Score
+•	Mean Absolute Error (MAE)
+•	Mean Squared Error (MSE)
+•	Root Mean Squared Error (RMSE)
+________________________________________
+🔄 Machine Learning Workflow
+Raw Flight Data
+        │
+        ▼
+ Data Cleaning
+        │
+        ▼
+ Missing Value Handling
+        │
+        ▼
+ Feature Engineering
+        │
+        ▼
+ Encoding Categorical Features
+        │
+        ▼
+ Train-Test Split
+        │
+        ▼
+ Model Training
+        │
+        ▼
+ Model Evaluation
+        │
+        ▼
+ Flight Fare Prediction
+________________________________________
+📁 Repository Structure
 Flight-Fare-Prediction/
 │
 ├── Flight Fare Prediction.ipynb
 ├── README.md
 ├── requirements.txt
-├── dataset/
-│   └── Flight_Fare.csv
 └── images/
-▶️ Installation
-
-Clone the repository
-
+________________________________________
+📂 Dataset
+Note
+The dataset used in this project is not included in this repository due to size and licensing considerations.
+You can use any publicly available Flight Fare dataset from Kaggle or other open data sources with the same feature structure.
+Typical dataset features include:
+•	Airline
+•	Date of Journey
+•	Source
+•	Destination
+•	Route
+•	Departure Time
+•	Arrival Time
+•	Duration
+•	Total Stops
+•	Additional Information
+•	Price (Target Variable)
+________________________________________
+⚙️ Installation
+Clone the Repository
 git clone https://github.com/your-username/Flight-Fare-Prediction.git
-
-Go to the project folder
-
+Navigate to the Project
 cd Flight-Fare-Prediction
-
-Install dependencies
-
+Install Dependencies
 pip install -r requirements.txt
-
 Launch Jupyter Notebook
-
 jupyter notebook
-📷 Project Workflow
-Dataset
-     │
-     ▼
-Data Cleaning
-     │
-     ▼
-Feature Engineering
-     │
-     ▼
-Encoding
-     │
-     ▼
-Train/Test Split
-     │
-     ▼
-Model Training
-     │
-     ▼
-Prediction
+________________________________________
+📦 Requirements
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+xgboost
+jupyter
+________________________________________
 🎯 Future Improvements
-Deploy using Streamlit
-Hyperparameter Tuning
-Model Pipeline
-Real-time Flight API Integration
-Price Trend Visualization
+•	Deploy the model using Streamlit
+•	Hyperparameter Optimization
+•	Pipeline Automation
+•	Real-time Flight API Integration
+•	Interactive Dashboard
+•	Model Explainability using SHAP
+________________________________________
+📈 Learning Outcomes
+This project demonstrates practical experience with:
+•	Data Preprocessing
+•	Feature Engineering
+•	Regression Algorithms
+•	Model Evaluation
+•	Machine Learning Workflow
+•	Predictive Analytics
+________________________________________
 👨‍💻 Author
-
 Mohsin Iqubal
-
-MCA, Tezpur University
-Aspiring Data Scientist & Machine Learning Engineer
+🎓 MCA – Tezpur University
+💼 Aspiring Data Scientist | Machine Learning Engineer | AI Enthusiast
+________________________________________
+⭐ Support
+If you found this project useful, consider giving it a ⭐ Star on GitHub.
+It helps others discover the project and motivates further improvements.
+________________________________________
+Made with ❤️ using Python & Machine Learning
